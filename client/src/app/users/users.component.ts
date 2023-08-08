@@ -1,19 +1,20 @@
 import { Component, OnInit } from '@angular/core';
+
 import { UserDataService } from '../user-data.service';
 
 export class User{
   #_id!:string;
-  #username!:string;
+  #userName!:string;
 
   get id():string{
     return this.#_id;
   }
-  get username():string{
-    return this.#username;
+  get userName():string{
+    return this.#userName;
   }
-  constructor(id:string, username:string){
+  constructor(id:string, userName:string){
     this.#_id = id;
-    this.#username = username;
+    this.#userName = userName;
   }
 }
 

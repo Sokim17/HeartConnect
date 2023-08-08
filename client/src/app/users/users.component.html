@@ -1,1 +1,6 @@
 <p>users works!</p>
+<ul>
+    <li routerLink="/users/:{{user.id}}" *ngFor="let user of users">
+        {{user.userName}} 
+    </li>
+</ul>

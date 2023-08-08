@@ -11,20 +11,23 @@ import { UserDataService } from '../user-data.service';
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit{
+
   user!:User;
+  
   constructor(private _userService:UserDataService, private _route:ActivatedRoute ){
   }
+
   userId = this._route.snapshot.params["id"];
 
   ngOnInit(): void {
     this.getOneUser(this.userId);
   }
 
-  getOneUser(id:string){
+  getOneUser(id:string):void{
     this._userService.getOneUser(id).subscribe({
       next: response => this.user = response,
       error: err => console.log(err),
-      complete: () => console.log("Request has completed.")
+      complete: () => console.log("GetOneUser Request has completed.")
     })
   }
 }

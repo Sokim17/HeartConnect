@@ -12,6 +12,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { UsersComponent } from './users/users.component';
 import { UserComponent } from './user/user.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -21,12 +23,14 @@ import { UserComponent } from './user/user.component';
     FooterComponent,
     HeaderComponent,
     UsersComponent,
-    UserComponent
+    UserComponent,
+    ErrorPageComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    RouterModule.forRoot(Router)
+    RouterModule.forRoot(Router),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
