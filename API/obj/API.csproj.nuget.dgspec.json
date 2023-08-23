@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sokim\\Documents\\My Background\\Projects\\DatingApp\\API\\API.csproj": {}
+    "c:\\Users\\sokim\\Documents\\My Background\\Projects\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sokim\\Documents\\My Background\\Projects\\DatingApp\\API\\API.csproj": {
+    "c:\\Users\\sokim\\Documents\\My Background\\Projects\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sokim\\Documents\\My Background\\Projects\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\sokim\\Documents\\My Background\\Projects\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\sokim\\Documents\\My Background\\Projects\\DatingApp\\API\\API.csproj",
+        "projectPath": "c:\\Users\\sokim\\Documents\\My Background\\Projects\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\sokim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sokim\\Documents\\My Background\\Projects\\DatingApp\\API\\obj\\",
+        "outputPath": "c:\\Users\\sokim\\Documents\\My Background\\Projects\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -55,6 +55,10 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[7.0.9, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.1, )"
             }
           },
           "imports": [
