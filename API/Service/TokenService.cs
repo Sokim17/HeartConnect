@@ -1,6 +1,5 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using API.Entities;
 using API.Interface;
@@ -30,6 +29,7 @@ namespace API.Service
             };
             var tokenHandler = new JwtSecurityTokenHandler(); // this is the token handler
             var token = tokenHandler.CreateToken(tokenDescriptor); // this is the token
+            
             return tokenHandler.WriteToken(token); // this is the token string
         }
     }
