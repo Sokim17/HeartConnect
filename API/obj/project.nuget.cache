@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "nFpam8KvyMJER1MRV74TBHAwfBTetz1B3i6KeBCKGppnH+uGMQ0PFHEHbnJDYqKHFEqALC2DEq6UN5pG4bL5pQ==",
+  "dgSpecHash": "en3uULM4dz2JucKk8H40iq3YUFOW2YaTbkESE4YhYUk7wYecZX88U4BEqbsq5wQCS/EMZxWu1ETAoJT9vJP2Tw==",
   "success": true,
   "projectFilePath": "C:\\Users\\sokim\\Documents\\My Background\\Projects\\DatingApp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sokim\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\sokim\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.10\\microsoft.aspnetcore.authentication.jwtbearer.7.0.10.nupkg.sha512",
     "C:\\Users\\sokim\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\sokim\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.9\\microsoft.data.sqlite.core.7.0.9.nupkg.sha512",
     "C:\\Users\\sokim\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
@@ -27,6 +28,8 @@
     "C:\\Users\\sokim\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.32.1\\microsoft.identitymodel.abstractions.6.32.1.nupkg.sha512",
     "C:\\Users\\sokim\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.32.1\\microsoft.identitymodel.jsonwebtokens.6.32.1.nupkg.sha512",
     "C:\\Users\\sokim\\.nuget\\packages\\microsoft.identitymodel.logging\\6.32.1\\microsoft.identitymodel.logging.6.32.1.nupkg.sha512",
+    "C:\\Users\\sokim\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.15.1\\microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
+    "C:\\Users\\sokim\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.15.1\\microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
     "C:\\Users\\sokim\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.32.1\\microsoft.identitymodel.tokens.6.32.1.nupkg.sha512",
     "C:\\Users\\sokim\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\sokim\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

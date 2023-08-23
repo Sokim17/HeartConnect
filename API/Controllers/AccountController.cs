@@ -4,6 +4,7 @@ using API.Data;
 using API.DTOs;
 using API.Entities;
 using API.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SQLitePCL;
@@ -16,7 +17,7 @@ namespace API.Controllers
         private readonly ITokenService _tokenService;
         public AccountController(DataContext context, ITokenService tokenService)
         {
-           this._tokenService = tokenService;
+            this._tokenService = tokenService;
             this._context = context;
         }
 
