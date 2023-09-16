@@ -9,8 +9,7 @@ import { environment } from 'src/environments/environment';
 export class UserDataService {
 
   constructor(private http: HttpClient) { }
-
-  // baseUrl: string = "https://localhost:7255/api/users";
+  
   baseUrl: string = environment.UserApiUrl;
   
   public getUsers():Observable<User[]>{
